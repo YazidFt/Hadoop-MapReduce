@@ -1,10 +1,3 @@
-/*
-  WMD - Année 2015/2016
-  --
-  TP2: Programme MapReduce : compteur d'occurences de mots (word count).
-  --
- WCountMap.java: classe Driver (contient le main du programme Hadoop).
-*/
 package org.hadoop.wordcount;
 
 import org.apache.hadoop.fs.Path;
