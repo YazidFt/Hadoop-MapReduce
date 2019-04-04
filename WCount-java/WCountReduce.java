@@ -21,5 +21,5 @@ public class WCountReduce extends Reducer<Text, IntWritable, Text, Text>
 			count+=i.next().get();    // ...on l'ajoute au total.
 		// On renvoie le couple (clé;valeur) constitué de notre clé key et du total, au format Text.
 		context.write(key, new Text(count+" occurences."));
-  }
+    }
 }
